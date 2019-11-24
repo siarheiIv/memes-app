@@ -88,7 +88,7 @@ function renderForm() {
     const clickedMeme = memeTextOne.dataset.id;
 
     if (memeTextOne.value === '') {
-      errorMessageFirst.innerHTML = 'Пожалуйста, заполните поле1';
+      errorMessageFirst.innerHTML = 'Пожалуйста, заполните поле';
       document.querySelector('[name="textOne"]').classList.add('form-validation');
       return false;
     } else if (memeTextTwo.value === '') {
