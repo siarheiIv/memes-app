@@ -95,7 +95,7 @@ function renderForm() {
       errorMessageSecond.innerHTML = 'Пожалуйста, заполните поле';
       document.querySelector('[name="textTwo"]').classList.add('form-validation');
       return false;
-    } 
+    }
     
     const newMeme = {
       template_id: clickedMeme,
